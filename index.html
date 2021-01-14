@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<style>
+		body {
+	font-family: "Candara", serif;
+	font-size: 20px;
+	line-height: 5px;
+	background-color: #191716;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+#Titulo {
+	font-size: 3em;
+	text-align: center;
+	text-decoration: underline;
+	color: #E2D7D4;
+}
+#Subtitulo {
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 1.5em;
+	color: #E2D7D4;
+}
+#Contenido{
+	text-align: center;
+	line-height: 20px;
+	margin-top: 1.8em;
+	color: #E2D7D4;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #E2D7D4;
+}
+#índice {
+	line-height: 25px;
+}
+.Items:hover {
+	font-size: 1.9em;
+	color: #E2D7D4;
+}
+.Items {
+	text-decoration: none;
+	color: #E2D7D4;
+}
+#Publicaciones {	
+	border-right: black 1px solid;
+	border-left: black 1px solid;
+	border-top: black 1px solid;
+	border-bottom: black 1px solid;
+	border-radius: 10px;
+	margin-right: 20em;
+	margin-left: 3em;
+	background-color: #5D5A59;	
+}
+.Autor {
+	font-size: 0.8em;
+	margin-left: 1em;
+	font-weight: bold;
+}
+#Día1{
+	font-size: 1.6em;
+	margin-left: 0.5em;
+}
+#Fecha1 {
+	font-family: "Calibri", serif;
+	font-size: 0.8em;
+	margin-left: 1em;
+}
+#Entrada1 {
+	line-height: 19px;
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: 2em;
+}
+#Día2 {
+	font-size: 1.6em;
+	margin-left: 0.5em;
+}
+#Fecha2 {
+	font-family: "Calibri", serif;
+	font-size: 0.8em;
+	margin-left: 1em;
+}
+#Entrada2 {
+	line-height: 19px;
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: 2em;
+}
+#Día3 {
+	font-size: 1.6em;
+	margin-left: 0.5em;
+}
+#Fecha3 {
+	font-family: "Calibri", serif;
+	font-size: 0.8em;
+	margin-left: 1em;
+}
+#Entrada3 {
+	line-height: 19px;
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: 2em;
+}
+#BotonV {
+	text-align: center;
+}
+#Volver {
+	text-align: center;
+	color: #E2D7D4;
+	text-decoration: none;
+}
+#Volver:hover {
+	font-size: 1.9em;
+	color: #E2D7D4;
+}
+	</style>
+	<title>Pagina Web</title>
+</head>
+<body>
+	<header>
+		<h1 id="Titulo">Blog de Kevin</h1>
+		<h2 id="Subtitulo">Mi diario de aprendizaje</h2>
+	</header>
+	<main>
+		<section>
+			<h2 id="Contenido">Contenido</h2>
+			<nav>
+				<ul id="índice">
+					<li><a href="#Día1" class="Items">Día 1</a></li>
+					<li><a href="#Día2" class="Items">Día 2<a/></li>
+					<li><a href="#Día3" class="Items">Día 3</a></li>
+				</ul>
+			</nav>
+		</section>
+		<article id="Publicaciones">
+			<h3 id="Día1">Día 1</h3>
+			<p class="Autor">Autor:<strong> Kevin Manzano</strong></p>
+			<h4 id="Fecha1"><strong>Publicado:</strong> 13/01/2021</h4>
+			<p id="Entrada1">
+			   Hoy aprendi muchas cosas y creo estar entendiendo todo<br>
+			   a la perfección, por ahora considero que es facil eso (<br>
+			   espero no arrepentirme).</p>
+			<h3 id="Día2">Día 2</h3>
+			<p class="Autor">Autor:<strong> Kevin Manzano</strong></p>
+			<h4 id="Fecha2"><strong>Publicado:</strong> 14/01/2021</h4>
+			<p id="Entrada2">
+			   Hoy aprendí aun más, me gustaria pensar que eso no es<br>
+			   un mundo tan grande pero descubro cada día que es muy<br>
+			   grande.</p>
+			<h3 id="Día3">Día 3</h3>
+			<p class="Autor">Autor:<strong> Kevin Manzano</strong></p>
+			<h4 id="Fecha3"><strong>Publicado:</strong> 15/01/2021</h4>
+			<p id="Entrada3">
+			   Hoy tambíen aprendi mucho, necesito llenar espacio asi<br>
+			   que tengo que escribir mucho para que esto baje y poder<br>
+			   mirar muchas mas cosas creo que asi ya me sirve.
+			</p>
+		</article>
+		<article>
+			<p id="BotonV"><a href="#Titulo" id="Volver">Inicio</a></p>
+		</article>
+	</main>
+</body>
+</html>
